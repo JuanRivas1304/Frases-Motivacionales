@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        cookie: ["Cookie", "cursive"],
+        barlow: ["Barlow Condensed", "cursive"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
